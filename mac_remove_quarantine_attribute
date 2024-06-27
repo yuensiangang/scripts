@@ -1,0 +1,2 @@
+
+sudo xattr -rd com.apple.quarantine /replace_with_path_to_spm12
