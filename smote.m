@@ -3,6 +3,7 @@ function [X_synthetic, Y_synthetic] = smote(X, Y, minority_class, N, k)
     % minority_class: The class to oversample
     % N: Number of synthetic samples to create (as a multiple of the minority class count)
     % k: Number of nearest neighbors to use for generating synthetic samples
+    % Written by Yuen Siang Ang DPhil
     
     minority_indices = find(Y == minority_class);
     num_minority = length(minority_indices);
